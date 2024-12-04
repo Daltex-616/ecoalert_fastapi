@@ -30,4 +30,4 @@ app.include_router(alert.router)
 async def read_foot():
     return{"message":"server corriendo"}
 
-#iniciar el proyecto python -m uvicorn main:app --reload 
+#iniciar el proyecto python -m uvicorn main:app --reload
